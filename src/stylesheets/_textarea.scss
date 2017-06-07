@@ -1,0 +1,41 @@
+@import '_globals';
+
+.textholder {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+
+textarea {
+  background-color: $textarea-background-color;
+  border: 8px solid $textarea-border-color;
+
+  width: 400px;
+  height: 500px;
+  max-width: 90vw;
+  max-height: 80vh;
+
+  font-family: $font-main;
+
+  margin: 0 5px;
+  padding: 10px;
+  resize: none;
+  &:focus {
+    outline: 0;
+  }
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#markdown-p {
+  margin-left: 10px;
+}
+
+#preview-p {
+  margin-right: 10px;
+  text-align: right;
+}
