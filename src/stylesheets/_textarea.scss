@@ -6,7 +6,7 @@
   margin: auto 0;
 }
 
-textarea {
+.text-class {
   background-color: $textarea-background-color;
   border: 8px solid $textarea-border-color;
 
@@ -29,6 +29,16 @@ p {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+#preview {
+  font-size: 12px;
+  font-weight: normal;
+  color: black;
+  p {
+    font-size: 11px;
+    font-weight: normal;
+  }
 }
 
 #markdown-p {

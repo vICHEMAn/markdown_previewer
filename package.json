@@ -11,6 +11,7 @@
   "author": "Victor Engström",
   "license": "ISC",
   "dependencies": {
+    "marked": "^0.3.6",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -30,7 +31,6 @@
     "eslint-plugin-react": "^7.0.1",
     "extract-text-webpack-plugin": "^2.1.0",
     "html-webpack-plugin": "^2.28.0",
-    "marked": "^0.3.6",
     "node-sass": "^4.5.3",
     "rimraf": "^2.6.1",
     "sass-loader": "^6.0.5",
